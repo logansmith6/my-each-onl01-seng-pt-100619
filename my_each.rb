@@ -1,10 +1,10 @@
 def my_each(array)
   # code here
-size = array.size
-x = 0
-while x <= size do
-  yield array[x]
-  x += 1
+size = array.size + 1
+n = 0
+while n <= size do
+  yield array[n]
+  n += 1
 end
 
 
