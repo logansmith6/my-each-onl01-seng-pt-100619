@@ -9,7 +9,7 @@ while n < array.size do
 
 end
 
-return i
+i
 end
 
 collection = [1,2,3,4]
