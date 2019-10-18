@@ -4,9 +4,11 @@ size = array.size
 n = 0
 while n <= (size + 1) do
   yield array[n]
+  n += 1
+
 
 end
-n += 1
+
 
 end
 
