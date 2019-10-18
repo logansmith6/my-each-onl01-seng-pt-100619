@@ -2,7 +2,7 @@ def my_each(array)
   # code here
 
 n = 0
-while n <= array.size do
+while n < array.size do
   yield array[n]
   n += 1
 
