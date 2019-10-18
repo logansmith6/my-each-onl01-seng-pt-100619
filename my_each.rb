@@ -1,6 +1,6 @@
 def my_each(array)
   # code here
-
+array.to_a
 n = 0
 while n < array.size do
   yield array[n]
